@@ -4,3 +4,4 @@ if [ -z "$ZSH" ]; then
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 pkg install vim -y
+termux-reload-settings
