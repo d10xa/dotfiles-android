@@ -1,5 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 HIST_STAMPS="yyyy-mm-dd"
+ZSH_THEME=robbyrussell
 plugins=(
   git
   vi-mode
