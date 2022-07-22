@@ -1,3 +1,4 @@
+#!/bin/sh
 pkg update -y
 if [ -z "$ZSH" ]; then
   pkg install zsh -y
