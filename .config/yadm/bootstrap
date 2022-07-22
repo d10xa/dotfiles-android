@@ -6,3 +6,5 @@ if [ -z "$ZSH" ]; then
 fi
 pkg install vim openssh -y
 termux-reload-settings
+
+[ ! -d "$HOME/storage" ] && termux-setup-storage
