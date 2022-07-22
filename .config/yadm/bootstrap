@@ -1,6 +1,7 @@
+pkg update -y
 if [ -z "$ZSH" ]; then
+  pkg install zsh -y
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   echo "reboot your terminal to activate zsh"
 fi
-pkg update -y
 pkg install vim -y
